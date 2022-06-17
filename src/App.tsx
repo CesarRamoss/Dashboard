@@ -1,5 +1,10 @@
-export const App = () => {
-  console.log("teste");
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes";
 
-  return <div className="App">Teste</div>;
+export const App = () => {
+  return (
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  );
 };
