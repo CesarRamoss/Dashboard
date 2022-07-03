@@ -89,7 +89,7 @@ export const MenuLateral: React.FC<IMenuLateral> = ({ children }) => {
                 <ListItemLink
                   icon={drawerOption.icon}
                   to={drawerOption.path}
-                  label={drawerOption.path}
+                  label={drawerOption.label}
                   onClick={smDown ? toggleDrawerOpen : undefined}
                 />
               ))}
